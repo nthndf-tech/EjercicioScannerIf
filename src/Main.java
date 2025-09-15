@@ -1,17 +1,38 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+        //1. Sensor de temperatura: Ingresa una temperatura en °C. Si es < 0 muestra 'Hace frío', si es > 30 muestra 'Hace calor', si no 'Clima templado'.
+
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+//       Scanner sc = new Scanner(System.in);
+//       System.out.printf("Temperatura:");
+//
+//       int temperatura = sc.nextInt();
+//        if (temperatura < 0){
+//            System.out.printf("Hace frío.");
+//        } else if (temperatura < 30){
+//        System.out.printf("Hace calor");
 
-        for (int i = 1; i <= ff5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-            System.out.println("i = " + i);
+//        }
 
-        }
+        //2. Detector de color favorito: Ingresa un color. Si es 'rojo', 'azul' o 'verde', muestra 'Es un color
+        //primario', si no, 'Otro color'.
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Color favorito:");
+//        String color  = sc.nextLine();
+//
+//        if (color.equals("rojo") || color.equals("azul") || color.equals("verde")) {
+//            System.out.printf("Es un color primario.");
+//        }    else{
+//           System.out.printf("Otro color.");
+//
+//        }
+
+        //3. Radar de velocidad: Ingresa la velocidad de un coche. Si es mayor a 120 km/h muestra
+        //'Multa', si es menor o igual 'Velocidad correcta'.
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Velocidad del coche");
+
     }
 }
