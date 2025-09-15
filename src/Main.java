@@ -69,5 +69,20 @@ public class Main {
 //        } else {
 //            System.out.println("Puede entrar solo.");
 //        }
+
+        //6. Semáforo: Ingresa un color ('rojo', 'amarillo', 'verde'). Muestra: 'Detente', 'Precaución' o
+        //'Avanza'.
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Ingresa un color: ");
+//        String color = sc.nextLine();
+//
+//        if (color.equals("rojo")) {
+//            System.out.println("Detente.");
+//        } else if (color.equals("amarillo")) {
+//            System.out.println("Precaución.");
+//          }  else if (color.equals("verde")) {
+//              System.out.println("Avanza.");
+//               }
     }
 }
